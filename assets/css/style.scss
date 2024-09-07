@@ -94,6 +94,7 @@ body {
       &__icons {
         display: flex;
         gap: 12px;
+        margin: 0 auto;
       }
 
       &__icons > * {
@@ -224,6 +225,34 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 55px;
+
+  &__info {
+    &__title {
+      @include text(50px, #2b2b2b, 800, auto);
+
+      span {
+        color: var(--yellow);
+      }
+    }
+    &__subtitle {
+      @include text(18px, #767676, 500, auto);
+      margin: 15px 0;
+    }
+    &__btn {
+      @include btn-style(154px, 44px, var(--yellow), 5px, 20px, black, none );
+      margin-top: 20px;
+
+      &:hover {
+        color: white;
+        transition: color .4s ease-in-out;
+      }
+      &:hover .hero_icon {
+        transform: rotate(-45deg);
+        transition: transform .4s;
+      }
+    }
+  }
 }
 
 // @mixin text($size, $color, $weight, $width) {
