@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio website || @azizbek_dulobov</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
@@ -13,7 +14,7 @@
     <main class="main">
         <aside class="menu">
             <div class="profile">
-                <img src="./assets/imgs/avatar.png" class="profile__avatar">
+                <img src="./assets/imgs/avatar.png" class="profile__avatar" alt="avatar">
                 <h1 class="profile__name">
                     Rayan Adlardard
                 </h1>
@@ -42,8 +43,8 @@
                     <p class="menu__about__subtitle" style="color: #7EB942;">Available</p>
                 </div>
                 <div class="menu__about__item">
-                    <h3 class="menu__about__title">Address:</h2>
-                        <p class="menu__about__subtitle">Dhaka,Bangladesh</p>
+                    <h3 class="menu__about__title">Address:</h3>
+                    <p class="menu__about__subtitle">Dhaka,Bangladesh</p>
                 </div>
             </div>
             <div class="menu__skills">
@@ -85,7 +86,7 @@
                 Download cv <i class="fa-solid fa-download"></i>
             </button>
         </aside>
-        <main class="container">
+        <div class="container">
             <section class="hero">
                 <div class="hero__info">
                     <h1 class="hero__info__title">
@@ -101,7 +102,231 @@
                 </div>
                 <img src="./assets/imgs/avatar.png" alt="hero">
             </section>
-        </main>
+            <section class="services">
+                <h1 class="services__title">
+                    My services
+                </h1>
+                <p class="services__subtitle">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. lorem ipsum
+                </p>
+                <div class="services__list">
+                    <div class="services__item">
+                        <img class="services__item__img" src="./assets/imgs/services-1.png" alt="services">
+                        <h2 class="services__item__title">
+                            Web Development
+                        </h2>
+                        <p class="services__item__subtitle">
+                            Blog, E-Commerce
+                        </p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__item__img" src="./assets/imgs/services-2.png" alt="services">
+                        <h2 class="services__item__title">
+                            UX/UI design
+                        </h2>
+                        <p class="services__item__subtitle">
+                            Mobile app, website design
+                        </p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__item__img" src="./assets/imgs/services-3.png" alt="services">
+                        <h2 class="services__item__title">
+                            Sound Design
+                        </h2>
+                        <p class="services__item__subtitle">
+                            Voice Over, Beat Making
+                        </p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__item__img" src="./assets/imgs/services-4.png" alt="services">
+                        <h2 class="services__item__title">
+                            Game Design
+                        </h2>
+                        <p class="services__item__subtitle">
+                            Character Design, Props & Objects
+                        </p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__item__img" src="./assets/imgs/services-5.png" alt="services">
+                        <h2 class="services__item__title">
+                            Photography
+                        </h2>
+                        <p class="services__item__subtitle">
+                            Portrait, Product Photography
+                        </p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__item__img" src="./assets/imgs/services-6.png" alt="services">
+                        <h2 class="services__item__title">
+                            Advertising
+                        </h2>
+                        <p class="services__item__subtitle">
+                            Lorem ipsum dolor sit
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="price">
+                <h1 class="price__title">
+                    Price plans
+                </h1>
+                <p class="price__subtitle">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. lorem ipsum
+                </p>
+                <div class="price__list">
+                    <div class="price__item">
+                        <h3 class="price__item__type">
+                            Silver
+                        </h3>
+                        <h1 class="price__item__price">
+                            $0.00 <span>/Hour</span>
+                        </h1>
+                        <p class="price__item__subtitle">
+                            For most businesses that want to optimize web queries
+                        </p>
+                        <ul class="price__item__list">
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-check" style="color: #ffb400;"></i>
+                                UI design
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-check" style="color: #ffb400;"></i>
+                                Web Development
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                Logo Design
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                SEO Optimization
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                WordPress integreation
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                5 Websites
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                Unlimited User
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                20GB Bandwidth
+                            </li>
+                        </ul>
+                        <button class="price__item__btn">
+                            ORDER NOW   
+                        </button>
+                        
+                    </div>
+                    <div class="price__item">
+                        <h3 class="price__item__type">
+                            Silver
+                        </h3>
+                        <h1 class="price__item__price">
+                            $0.00 <span>/Hour</span>
+                        </h1>
+                        <p class="price__item__subtitle">
+                            For most businesses that want to optimize web queries
+                        </p>
+                        <ul class="price__item__list">
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-check" style="color: #ffb400;"></i>
+                                UI design
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-check" style="color: #ffb400;"></i>
+                                Web Development
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                Logo Design
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                SEO Optimization
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                WordPress integreation
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                5 Websites
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                Unlimited User
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                20GB Bandwidth
+                            </li>
+                        </ul>
+                        <button class="price__item__btn">
+                            ORDER NOW   
+                        </button>
+
+                    </div>
+                    <div class="price__item">
+                        <h3 class="price__item__type">
+                            Silver
+                        </h3>
+                        <h1 class="price__item__price">
+                            $0.00 <span>/Hour</span>
+                        </h1>
+                        <p class="price__item__subtitle">
+                            For most businesses that want to optimize web queries
+                        </p>
+                        <ul class="price__item__list">
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-check" style="color: #ffb400;"></i>
+                                UI design
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-check" style="color: #ffb400;"></i>
+                                Web Development
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                Logo Design
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                SEO Optimization
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                WordPress integreation
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                5 Websites
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                Unlimited User
+                            </li>
+                            <li class="price__item__service">
+                                <i class="fa-solid fa-xmark" style="color: #7e7e7e;"></i>
+                                20GB Bandwidth
+                            </li>
+                        </ul>
+                        <button class="price__item__btn">
+                            ORDER NOW   
+                        </button>
+
+                    </div>
+                </div>
+            </section>
+        </div>
         <nav class="navbar">
             <i class="fa-solid fa-house"></i>
             <i class="fa-solid fa-file-code"></i>
@@ -111,7 +336,7 @@
             <i class="fa-solid fa-message"></i>
         </nav>
     </main>
+    <script src="assets/js/main.js"></script>
 </body>
-<script src="assets/js/main.js"></script>
 
 </html>
