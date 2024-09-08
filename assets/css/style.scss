@@ -461,12 +461,49 @@ body {
   }
 }
 .education {
+  margin: 50px 0;
   &__title {
     @include text(32px, #2b2b2b, 600, auto);
     text-align: center;
   }
   &__subtitle {
-    
+    @include text(17px, #767676, 400, 50%);
+    margin: 15px auto;
+    text-align: center;
+  }
+  &__item {
+    background: #fff;
+    padding: 43px 27px;
+    display: flex;
+    justify-content: space-between;
+
+    &__place {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+
+      &__job {
+        @include text(18px, #2b2b2b, 600, auto)
+      }
+      &__date {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        @include text(17px, #2b2b2b, 400, auto);
+        span {
+          @include text(12px, #fff, 400, auto);
+          background: var(--yellow);
+          padding: 4px 7px;
+        }
+      }
+    }
+
+    &__info {
+      width: 530px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
   }
 }
 

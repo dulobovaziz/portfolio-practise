@@ -472,10 +472,61 @@ body {
   width: auto;
 }
 
+.education {
+  margin: 50px 0;
+}
 .education__title {
   font-size: 32px;
   color: #2b2b2b;
   font-weight: 600;
   width: auto;
   text-align: center;
+}
+.education__subtitle {
+  font-size: 17px;
+  color: #767676;
+  font-weight: 400;
+  width: 50%;
+  margin: 15px auto;
+  text-align: center;
+}
+.education__item {
+  background: #fff;
+  padding: 43px 27px;
+  display: flex;
+  justify-content: space-between;
+}
+.education__item__place {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.education__item__place__job {
+  font-size: 18px;
+  color: #2b2b2b;
+  font-weight: 600;
+  width: auto;
+}
+.education__item__place__date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  color: #2b2b2b;
+  font-weight: 400;
+  width: auto;
+}
+.education__item__place__date span {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  width: auto;
+  background: var(--yellow);
+  padding: 4px 7px;
+}
+.education__item__info {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }/*# sourceMappingURL=style.css.map */
