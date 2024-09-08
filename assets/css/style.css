@@ -508,13 +508,13 @@ body {
   width: auto;
 }
 .education__item__place__date {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   font-size: 17px;
   color: #2b2b2b;
   font-weight: 400;
   width: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .education__item__place__date span {
   font-size: 12px;
@@ -529,4 +529,48 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.portfolio {
+  margin: 50px 0;
+}
+.portfolio__title {
+  font-size: 32px;
+  color: #2b2b2b;
+  font-weight: 600;
+  width: auto;
+  text-align: center;
+}
+.portfolio__subtitle {
+  font-size: 15px;
+  color: #767676;
+  font-weight: 400;
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+.portfolio__list {
+  margin: 20px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.portfolio__item {
+  position: relative;
+  width: 310px;
+}
+.portfolio__item:hover img {
+  z-index: -1;
+}
+.portfolio__item img {
+  position: absolute;
+}
+.portfolio__item__overlay {
+  background: rgba(255, 180, 0, 0.95);
+  height: 300px;
+  font-size: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -386,10 +386,12 @@ body {
       flex-direction: column;
       gap: 16px;
     }
+
     &__service {
       display: flex;
       gap: 15px;
     }
+
     &__gold {
       height: 30px;
       background: var(--yellow);
@@ -411,6 +413,7 @@ body {
     }
   }
 }
+
 .recommendation {
   margin: 50px 0;
 
@@ -418,16 +421,19 @@ body {
     @include text(32px, #2b2b2b, 700, auto);
     text-align: center;
   }
+
   &__subtitle {
     @include text(17px, #767676, 400, 440px);
     margin: 0 auto;
     text-align: center;
     padding: 25px 0;
   }
+
   &__list {
     display: flex;
     gap: 45px;
   }
+
   &__item {
     background: #fff;
     padding: 20px;
@@ -447,9 +453,11 @@ body {
       @include text(20px, #2b2b2b, 600, auto);
       margin: 5px 0;
     }
+
     &__subtitle {
       @include text(17px, #767676, 400, 265px);
     }
+
     &__info {
       display: flex;
       flex-direction: column;
@@ -460,17 +468,21 @@ body {
     }
   }
 }
+
 .education {
   margin: 50px 0;
+
   &__title {
     @include text(32px, #2b2b2b, 600, auto);
     text-align: center;
   }
+
   &__subtitle {
     @include text(17px, #767676, 400, 50%);
     margin: 15px auto;
     text-align: center;
   }
+
   &__item {
     background: #fff;
     padding: 43px 27px;
@@ -483,13 +495,15 @@ body {
       gap: 13px;
 
       &__job {
-        @include text(18px, #2b2b2b, 600, auto)
+        @include text(18px, #2b2b2b, 600, auto);
       }
+
       &__date {
+        @include text(17px, #2b2b2b, 400, auto);
         display: flex;
         align-items: center;
         gap: 10px;
-        @include text(17px, #2b2b2b, 400, auto);
+
         span {
           @include text(12px, #fff, 400, auto);
           background: var(--yellow);
@@ -503,6 +517,47 @@ body {
       display: flex;
       flex-direction: column;
       gap: 15px;
+    }
+  }
+}
+
+.portfolio {
+  margin: 50px 0;
+
+  &__title {
+    @include text(32px, #2b2b2b, 600, auto);
+    text-align: center;
+  }
+  &__subtitle {
+    @include text(15px, #767676, 400, 50%);
+    text-align: center;
+    margin: 10px auto;
+  }
+  &__list {
+    margin: 20px 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &__item {
+    position: relative;
+    width: 310px;
+
+    &:hover img {
+      z-index: -1;
+    }
+
+    img {
+      position: absolute;
+    }
+    &__overlay {
+      background: rgba(255, 180, 0, 0.95);
+      height: 300px;
+      font-size: 53px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
