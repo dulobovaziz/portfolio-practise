@@ -82,7 +82,7 @@
             </button>
         </aside>
         <div class="container">
-            <section class="hero">
+            <section class="hero" id="hero">
                 <div class="hero__info">
                     <h1 class="hero__info__title">
                         I’m Rayan Adlrdard <span>Front-end</span> Developer
@@ -96,9 +96,9 @@
                         Hire me <i class="fa-solid fa-arrow-right hero_icon"></i>
                     </button>
                 </div>
-                <img src="./assets/imgs/avatar.png" alt="hero" />
+                <img class="hero__img" src="./assets/imgs/avatar.png" alt="hero" />
             </section>
-            <section class="services">
+            <section class="services" id="services">
                 <h1 class="services__title">My services</h1>
                 <p class="services__subtitle">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -142,7 +142,7 @@
                 </div>
             </section>
 
-            <section class="price">
+            <section class="price" id="price">
                 <h1 class="price__title">Price plans</h1>
                 <p class="price__subtitle">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -193,9 +193,7 @@
                     </div>
 
                     <div class="price__item">
-                        <div class="price__item__gold">
-                            Most Popular
-                        </div>
+                        <div class="price__item__gold">Most Popular</div>
                         <h3 class="price__item__type">Gold</h3>
                         <h1 class="price__item__price">$50.00 <span>/Hour</span></h1>
                         <p class="price__item__subtitle">
@@ -237,7 +235,9 @@
                                 20GB Bandwidth
                             </li>
                         </ul>
-                        <button class="price__item__btn" style="background: #FFB400;">ORDER NOW</button>
+                        <button class="price__item__btn" style="background: #ffb400">
+                            ORDER NOW
+                        </button>
                     </div>
 
                     <div class="price__item">
@@ -285,36 +285,31 @@
                 </div>
             </section>
 
-            <section class="recommendation">
-                <h2 class="recommendation__title">
-                    Recommendations
-                </h2>
+            <section class="recommendation" id="recommendation">
+                <h2 class="recommendation__title">Recommendations</h2>
                 <p class="recommendation__subtitle">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. lorem ipsum
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. lorem ipsum
                 </p>
                 <div class="recommendation__list">
                     <div class="recommendation__item">
                         <div class="recommendation__item__stars">
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
                         </div>
-                        <h2 class="recommendation__item__title">
-                            Great Quality!
-                        </h2>
+                        <h2 class="recommendation__item__title">Great Quality!</h2>
                         <p class="recommendation__item__subtitle">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
-                            urna viverra morbi. Morbi donec amet....
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                            nulla diam in ac dictum a urna viverra morbi. Morbi donec
+                            amet....
                         </p>
                         <div class="recommendation__item__avatar">
-                            <img src="./assets/imgs/recommendation-1.png" alt="recommendations-img">
+                            <img src="./assets/imgs/recommendation-1.png" alt="recommendations-img" />
                             <div class="recommendation__item__info">
-                                <h3 class="recommendation__item__info__title">
-                                    James Gouse
-                                </h3>
+                                <h3 class="recommendation__item__info__title">James Gouse</h3>
                                 <p class="recommendation__item__info__subtitle">
                                     Graphic Designer
                                 </p>
@@ -324,25 +319,22 @@
 
                     <div class="recommendation__item">
                         <div class="recommendation__item__stars">
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
                         </div>
-                        <h2 class="recommendation__item__title">
-                            Great Quality!
-                        </h2>
+                        <h2 class="recommendation__item__title">Great Quality!</h2>
                         <p class="recommendation__item__subtitle">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
-                            urna viverra morbi. Morbi donec amet....
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                            nulla diam in ac dictum a urna viverra morbi. Morbi donec
+                            amet....
                         </p>
                         <div class="recommendation__item__avatar">
-                            <img src="./assets/imgs/recommendation-2.png" alt="recommendations-img">
+                            <img src="./assets/imgs/recommendation-2.png" alt="recommendations-img" />
                             <div class="recommendation__item__info">
-                                <h3 class="recommendation__item__info__title">
-                                    James Gouse
-                                </h3>
+                                <h3 class="recommendation__item__info__title">James Gouse</h3>
                                 <p class="recommendation__item__info__subtitle">
                                     Graphic Designer
                                 </p>
@@ -352,25 +344,22 @@
 
                     <div class="recommendation__item">
                         <div class="recommendation__item__stars">
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
                         </div>
-                        <h2 class="recommendation__item__title">
-                            Great Quality!
-                        </h2>
+                        <h2 class="recommendation__item__title">Great Quality!</h2>
                         <p class="recommendation__item__subtitle">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
-                            urna viverra morbi. Morbi donec amet....
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                            nulla diam in ac dictum a urna viverra morbi. Morbi donec
+                            amet....
                         </p>
                         <div class="recommendation__item__avatar">
-                            <img src="./assets/imgs/recommendation-3.png" alt="recommendations-img">
+                            <img src="./assets/imgs/recommendation-3.png" alt="recommendations-img" />
                             <div class="recommendation__item__info">
-                                <h3 class="recommendation__item__info__title">
-                                    James Gouse
-                                </h3>
+                                <h3 class="recommendation__item__info__title">James Gouse</h3>
                                 <p class="recommendation__item__info__subtitle">
                                     Graphic Designer
                                 </p>
@@ -380,21 +369,16 @@
                 </div>
             </section>
 
-            <section class="education">
-                <h2 class="education__title">
-                    Education
-                </h2>
+            <section class="education" id="education">
+                <h2 class="education__title">Education</h2>
                 <p class="education__subtitle">
-                    Amet minim mollit non deserunt ullamco est sit aliqua
-                    dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. lorem ipsum
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. lorem ipsum
                 </p>
                 <div class="education__list">
                     <div class="education__item">
                         <div class="education__item__place">
-                            <h2 class="education__item__place__job">
-                                Lead Web Designer
-                            </h2>
+                            <h2 class="education__item__place__job">Lead Web Designer</h2>
                             <p class="education__item__place__date">
                                 Student <span>Jan 1016 - Dec 2021</span>
                             </p>
@@ -404,17 +388,17 @@
                                 Certificate of web training
                             </h3>
                             <p class="education__item__info__subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus
-                                nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
-                                posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                                dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                                Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                                posuere fusce tempus etiam et pellentesque. Molestie risus
+                                enim neque eget dui.
                             </p>
                         </div>
                     </div>
                     <div class="education__item">
                         <div class="education__item__place">
-                            <h2 class="education__item__place__job">
-                                Programming Course
-                            </h2>
+                            <h2 class="education__item__place__job">Programming Course</h2>
                             <p class="education__item__place__date">
                                 Student <span>Jan 1016 - Dec 2021</span>
                             </p>
@@ -424,9 +408,11 @@
                                 Certificate of web training
                             </h3>
                             <p class="education__item__info__subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus
-                                nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
-                                posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                                dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                                Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                                posuere fusce tempus etiam et pellentesque. Molestie risus
+                                enim neque eget dui.
                             </p>
                         </div>
                     </div>
@@ -444,30 +430,27 @@
                                 Certificate of web training
                             </h3>
                             <p class="education__item__info__subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus
-                                nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
-                                posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                                dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                                Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                                posuere fusce tempus etiam et pellentesque. Molestie risus
+                                enim neque eget dui.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
 
-
             <section class="education">
-                <h2 class="education__title">
-                    Work History
-                </h2>
+                <h2 class="education__title">Work History</h2>
                 <p class="education__subtitle">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. lorem ipsum
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. lorem ipsum
                 </p>
                 <div class="education__list">
                     <div class="education__item">
                         <div class="education__item__place">
-                            <h2 class="education__item__place__job">
-                                Lead Web Designer
-                            </h2>
+                            <h2 class="education__item__place__job">Lead Web Designer</h2>
                             <p class="education__item__place__date">
                                 Student <span>Jan 1016 - Dec 2021</span>
                             </p>
@@ -477,17 +460,17 @@
                                 Certificate of web training
                             </h3>
                             <p class="education__item__info__subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus
-                                nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
-                                posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                                dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                                Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                                posuere fusce tempus etiam et pellentesque. Molestie risus
+                                enim neque eget dui.
                             </p>
                         </div>
                     </div>
                     <div class="education__item">
                         <div class="education__item__place">
-                            <h2 class="education__item__place__job">
-                                Junior Web Designer
-                            </h2>
+                            <h2 class="education__item__place__job">Junior Web Designer</h2>
                             <p class="education__item__place__date">
                                 Student <span>Jan 1016 - Dec 2021</span>
                             </p>
@@ -497,17 +480,17 @@
                                 Certificate of web training
                             </h3>
                             <p class="education__item__info__subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus
-                                nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
-                                posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                                dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                                Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                                posuere fusce tempus etiam et pellentesque. Molestie risus
+                                enim neque eget dui.
                             </p>
                         </div>
                     </div>
                     <div class="education__item">
                         <div class="education__item__place">
-                            <h2 class="education__item__place__job">
-                                Senior Web Designer
-                            </h2>
+                            <h2 class="education__item__place__job">Senior Web Designer</h2>
                             <p class="education__item__place__date">
                                 Student <span>Jan 1016 - Dec 2021</span>
                             </p>
@@ -517,107 +500,117 @@
                                 Certificate of web training
                             </h3>
                             <p class="education__item__info__subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus
-                                nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
-                                posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                                dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                                Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                                posuere fusce tempus etiam et pellentesque. Molestie risus
+                                enim neque eget dui.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="portfolio">
-                <h1 class="portfolio__title">
-                    Portfolio
-                </h1>
+            <section class="portfolio" id="portfolio">
+                <h1 class="portfolio__title">Portfolio</h1>
                 <p class="portfolio__subtitle">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. lorem ipsum
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. lorem ipsum
                 </p>
                 <div class="portfolio__list">
                     <div class="portfolio__item">
-                        <img src="./assets/imgs/portfolio-1.png" alt="portfolio">
-                        <div class="portfolio__item__overlay"><i class="fa-solid fa-plus"></i></div>
+                        <img src="./assets/imgs/portfolio-1.png" alt="portfolio" />
+                        <div class="portfolio__item__overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     <div class="portfolio__item">
-                        <img src="./assets/imgs/portfolio-2.png" alt="portfolio">
-                        <div class="portfolio__item__overlay"><i class="fa-solid fa-plus"></i></div>
+                        <img src="./assets/imgs/portfolio-2.png" alt="portfolio" />
+                        <div class="portfolio__item__overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     <div class="portfolio__item">
-                        <img src="./assets/imgs/portfolio-3.png" alt="portfolio">
-                        <div class="portfolio__item__overlay"><i class="fa-solid fa-plus"></i></div>
+                        <img src="./assets/imgs/portfolio-3.png" alt="portfolio" />
+                        <div class="portfolio__item__overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     <div class="portfolio__item">
-                        <img src="./assets/imgs/portfolio-4.png" alt="portfolio">
-                        <div class="portfolio__item__overlay"><i class="fa-solid fa-plus"></i></div>
+                        <img src="./assets/imgs/portfolio-4.png" alt="portfolio" />
+                        <div class="portfolio__item__overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     <div class="portfolio__item">
-                        <img src="./assets/imgs/portfolio-5.png" alt="portfolio">
-                        <div class="portfolio__item__overlay"><i class="fa-solid fa-plus"></i></div>
+                        <img src="./assets/imgs/portfolio-5.png" alt="portfolio" />
+                        <div class="portfolio__item__overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     <div class="portfolio__item">
-                        <img src="./assets/imgs/portfolio-6.png" alt="portfolio">
-                        <div class="portfolio__item__overlay"><i class="fa-solid fa-plus"></i></div>
+                        <img src="./assets/imgs/portfolio-6.png" alt="portfolio" />
+                        <div class="portfolio__item__overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     <div class="portfolio__item">
-                        <img src="./assets/imgs/portfolio-7.png" alt="portfolio">
-                        <div class="portfolio__item__overlay"><i class="fa-solid fa-plus"></i></div>
+                        <img src="./assets/imgs/portfolio-7.png" alt="portfolio" />
+                        <div class="portfolio__item__overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     <div class="portfolio__item">
-                        <img src="./assets/imgs/portfolio-8.png" alt="portfolio">
-                        <div class="portfolio__item__overlay"><i class="fa-solid fa-plus"></i></div>
+                        <img src="./assets/imgs/portfolio-8.png" alt="portfolio" />
+                        <div class="portfolio__item__overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     <div class="portfolio__item">
-                        <img src="./assets/imgs/portfolio-9.png" alt="portfolio">
-                        <div class="portfolio__item__overlay"><i class="fa-solid fa-plus"></i></div>
+                        <img src="./assets/imgs/portfolio-9.png" alt="portfolio" />
+                        <div class="portfolio__item__overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section class="blog">
-                <h2 class="blog__title">
-                    Blog
-                </h2>
+            <section class="blog" id="blog">
+                <h2 class="blog__title">Blog</h2>
                 <p class="blog__subtitle">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. lorem ipsum
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. lorem ipsum
                 </p>
                 <div class="blog__list">
                     <div class="blog__item">
-                        <img src="./assets/imgs/portfolio-1.png" alt="blog">
+                        <img src="./assets/imgs/portfolio-1.png" alt="blog" />
                         <div class="blog__item__info">
-                            <h2 class="blog__item__title">
-                                How to make web tempates
-                            </h2>
+                            <h2 class="blog__item__title">How to make web tempates</h2>
                             <p class="blog__item__subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
-                                urna
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                nulla diam in ac dictum a urna
                             </p>
                             <button class="blog__item__btn">Learn more ></button>
                         </div>
                     </div>
                     <div class="blog__item">
-                        <img src="./assets/imgs/portfolio-2.png" alt="blog">
+                        <img src="./assets/imgs/portfolio-2.png" alt="blog" />
                         <div class="blog__item__info">
-                            <h2 class="blog__item__title">
-                                How to make web tempates
-                            </h2>
+                            <h2 class="blog__item__title">How to make web tempates</h2>
                             <p class="blog__item__subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
-                                urna
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                nulla diam in ac dictum a urna
                             </p>
                             <button class="blog__item__btn">Learn more ></button>
                         </div>
                     </div>
                     <div class="blog__item">
-                        <img src="./assets/imgs/portfolio-3.png" alt="blog">
+                        <img src="./assets/imgs/portfolio-3.png" alt="blog" />
                         <div class="blog__item__info">
-                            <h2 class="blog__item__title">
-                                How to make web tempates
-                            </h2>
+                            <h2 class="blog__item__title">How to make web tempates</h2>
                             <p class="blog__item__subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
-                                urna
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                nulla diam in ac dictum a urna
                             </p>
                             <button class="blog__item__btn">Learn more ></button>
                         </div>
@@ -625,45 +618,33 @@
                 </div>
             </section>
 
-            <section class="contact">
+            <section class="contact" id="contact">
                 <div class="contact__form">
-                    <h2 class="contact__form__title">
-                        Leave us your info
-                    </h2>
+                    <h2 class="contact__form__title">Leave us your info</h2>
                     <form class="form">
                         <label class="form__label">
                             <span class="form__label__text">
                                 Your Full Name ( Required)
                             </span>
-                            <input type="text" class="form__label__input" required>
+                            <input type="text" class="form__label__input" required />
                         </label>
                         <label class="form__label">
-                            <span class="form__label__text">
-                                Your Email ( Required)
-                            </span>
-                            <input type="text" class="form__label__input" required>
+                            <span class="form__label__text"> Your Email ( Required) </span>
+                            <input type="text" class="form__label__input" required />
                         </label>
                         <label class="form__label">
-                            <span class="form__label__text">
-                                Subject
-                            </span>
-                            <input type="text" class="form__label__input" required>
+                            <span class="form__label__text"> Subject </span>
+                            <input type="text" class="form__label__input" required />
                         </label>
                         <label class="form__label">
-                            <span class="form__label__text">
-                                Your Message
-                            </span>
+                            <span class="form__label__text"> Your Message </span>
                             <textarea class="form__label__area"></textarea>
                         </label>
-                        <button class="form__label__btn">
-                            SEND MESSAGE
-                        </button>
+                        <button class="form__label__btn">SEND MESSAGE</button>
                     </form>
                 </div>
                 <div class="contact__info">
-                    <h2 class="contact__info__title">
-                        Contact Information
-                    </h2>
+                    <h2 class="contact__info__title">Contact Information</h2>
                     <div class="contact__info__item">
                         <i class="fa-solid fa-map"></i>
                         <div class="contact__info__item__text">
@@ -696,7 +677,6 @@
                         </div>
                     </div>
 
-
                     <div class="contact__info__item">
                         <i class="fa-solid fa-phone"></i>
                         <div class="contact__info__item__text">
@@ -717,27 +697,25 @@
 
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.4372693380024!2d65.65276427574531!3d38.822445471740124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4ebbfe2edc59c3%3A0xf01a6f51d6f10bd2!2sIT%20Center%20Beshkent!5e0!3m2!1sen!2s!4v1725891145935!5m2!1sen!2s"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <div class="companies">
-                <img src="./assets/imgs/companies-1.png" alt="companies">
-                <img src="./assets/imgs/companies-2.png" alt="companies">
-                <img src="./assets/imgs/companies-3.png" alt="companies">
-                <img src="./assets/imgs/companies-4.png" alt="companies">
+                <img src="./assets/imgs/companies-1.png" alt="companies" />
+                <img src="./assets/imgs/companies-2.png" alt="companies" />
+                <img src="./assets/imgs/companies-3.png" alt="companies" />
+                <img src="./assets/imgs/companies-4.png" alt="companies" />
             </div>
 
-            <footer>
-                2021 All Rights Reserved.Ojjomedia
-            </footer>
+            <footer>2021 All Rights Reserved.Ojjomedia</footer>
         </div>
         <nav class="navbar">
-            <i class="fa-solid fa-house"></i>
-            <i class="fa-solid fa-file-code"></i>
-            <i class="fa-solid fa-graduation-cap"></i>
-            <i class="fa-solid fa-briefcase"></i>
-            <i class="fa-solid fa-feather-pointed"></i>
-            <i class="fa-solid fa-message"></i>
+            <a href="#hero"> <i class="fa-solid fa-house"></i></a>
+            <a href="#services"> <i class="fa-solid fa-file-code"></i></a>
+            <a href="#education"> <i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#portfolio"><i class="fa-solid fa-briefcase"></i></a>
+            <a href="#blog"><i class="fa-solid fa-feather-pointed"></i></a>
+            <a href="#contact"><i class="fa-solid fa-message"></i></a>
         </nav>
     </main>
     <script src="assets/js/main.js"></script>

@@ -21,7 +21,9 @@
 :root {
   --yellow: #ffb400;
 }
-
+#menu__btn {
+  display: none;
+}
 .container {
   width: 970px;
   margin: 0 auto;
@@ -224,10 +226,13 @@ body {
   padding: 50px 21px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 30px;
   flex-shrink: 0;
   background: #fafafa;
   box-shadow: 4px 0px 10px 0px rgba(47, 122, 249, 0.1);
+
+
 
   i {
     color: #767676;
@@ -671,7 +676,7 @@ body {
       i {
         background: var(--yellow);
         padding: 12px;
-        border-radius: 50% ;
+        border-radius: 50%;
       }
 
       &__text {
@@ -705,20 +710,154 @@ footer {
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 96%;
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+  .menu {
+    display: none !important;
+    height: 100% !important;
+  }
+  .menu__btn {
+    margin-top: 20px !important;
+  }
+  .profile {
+    margin-bottom: 40px !important;
+  }
+  .menu__about {
+    margin-bottom: 40px;
+    z-index: 10;
+  }
+  .navbar {
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    height: 100px !important;
+    bottom: 0;
+  }
+  .hero__img {
+    display: none;
+  }
+  .hero {
+    width: 94% ;
+    height: 400px;
+  }
+  .hero__info__title {
+    font-size: 28px;
+    width: 100%;
+  }
+  .hero__info__subtitle {
+    font-size: 17px;
+  }
+  .services__title {
+    text-align: left;
+  }
+  .services__subtitle {
+    margin: 0;
+    text-align: left;
+    width: 90%;
+  }
+  .services__item {
+    width: 95%;
+  }
+  .price__list {
+    display: block;
+  }
+  .price__item {
+    margin: 20px 0;
+    width: 95%;
+    z-index: -1;
+  }
+  .recommendation__title {
+    text-align: left;
+  }
+  .recommendation__subtitle {
+    width: 90%;
+    text-align: left;
+    margin: 0;
+  }
+  .recommendation__list {
+    display: block;
+  }
+  .recommendation__item {
+    width: 95%;
+    margin: 20px 0;
+  }
+  .recommendation__item__subtitle {
+    width: 100% !important;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .education__item {
+    display: block;
+    width: 95%;
+    margin: 20px 0;
+  }
 
-// @mixin text($size, $color, $weight, $width) {
-//   font-size: $size;
-//   color: $color;
-//   font-weight: $weight;
-//   width: $width;
-// }
-
-// @mixin btn-style($width, $heigh, $bg, $radius, $size, $color, $border) {
-//   width: $width;
-//   height: $heigh;
-//   background-color: $bg;
-//   border-radius: $radius;
-//   font-size: $size;
-//   color: $color;
-//   border: $border;
-// }
+  .education__title {
+    text-align: left;
+  }
+  .education__subtitle {
+    width: 90%;
+    text-align: left;
+    margin: 0;
+  }
+  .education__item__info__subtitle {
+    width: 335px !important;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .portfolio__item {
+    width: 95%;
+    margin: 5px 0;
+    height: 391px;
+    z-index: -1;
+  }
+  .portfolio__item__overlay {
+    height: 377px;
+  }
+  .portfolio__item img {
+    width: 100%;
+  }
+  .portfolio__title {
+    text-align: left;
+  }
+  .portfolio__subtitle {
+    width: 90%;
+    margin: 0;
+    text-align: left;
+  }
+  .blog__list {
+    display: block;
+  }
+  .blog__item {
+    width: 90%;
+    margin: 20px 0;
+  }
+  .blog__item img {
+    width: 100%;
+  }
+  .contact {
+    display: block;
+  }
+  form {
+    width: 90%;
+  }
+  .form__label__input, .form__label__area {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+  .contact__info__item {
+    width: 95%;
+  }
+  iframe {
+    width: 95%;
+  }
+  #menu__btn {
+    border-radius: 0;
+    display: block;
+  }
+}
